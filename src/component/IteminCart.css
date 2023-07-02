@@ -1,0 +1,107 @@
+.box {
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: var(--shadow);
+}
+
+.btn-select {
+  opacity: 1;
+  width: max-content;
+  height: 30px;
+  margin: 5px 5px 10px 0px;
+  border: 0px;
+  background: var(--btn) !important;
+  color: var(--txt);
+  box-shadow: var(--shadow);
+  transition: var(--tr);
+}
+
+.btn-select.extra-color {
+  color: black;
+  opacity: 0.5;
+  background: gainsboro !important;
+  box-shadow: var(--shadow);
+  transition: var(--tr);
+}
+
+.btn-select:hover {
+  filter: brightness(1.05);
+  transition: var(--tr);
+}
+
+.op06 {
+  opacity: 0.6;
+}
+
+.add-diff {
+  width: 100px;
+}
+.add-diff.gray {
+  font-size: larger;
+  width: max-content;
+  opacity: 0.6;
+  border: 0px;
+}
+
+.forX {
+  font-size: xx-large;
+}
+
+.forImg {
+  height: 170px;
+  width: 210px;
+}
+
+.pl2px {
+  padding-left: 20px !important;
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 95vw !important;
+  }
+
+  .for-small-h300px {
+    height: 350px !important;
+  }
+
+  .forImg {
+    height: 300px !important;
+    width: 150px !important;
+  }
+  .forX {
+    text-align: end;
+    font-size: larger;
+  }
+  .media-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .font-small-head {
+    width: 100%;
+    font-size: medium;
+  }
+
+  .font-small {
+    font-size: smaller;
+  }
+
+  .for-box-cart {
+    padding: 5px !important;
+  }
+
+  .for-col {
+    flex-direction: column;
+  }
+
+  .btn-select {
+    width: 100px;
+    height: 30px;
+    font-size: xx-small;
+  }
+  .h50px {
+    height: 150px !important;
+  }
+}

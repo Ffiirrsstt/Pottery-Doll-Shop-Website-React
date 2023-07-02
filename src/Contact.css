@@ -1,0 +1,50 @@
+.box-contact {
+  width: 80vw;
+}
+
+.mt15px {
+  margin-top: 15px;
+}
+
+.icon-contact {
+  width: 100px;
+  height: 100px;
+  transition: var(--tr);
+}
+
+.icon-contact:hover {
+  scale: 1.05;
+  transition: var(--tr);
+}
+
+.btn-contact {
+  margin-top: 10px;
+  padding: 5px;
+  box-shadow: var(--shadow);
+  border: 0px;
+  border-radius: 5px;
+  transition: var(--tr);
+}
+
+.btn-contact:hover {
+  scale: 0.99;
+  transform: translateY(2px);
+  filter: brightness(1.2);
+  transition: var(--tr);
+}
+
+.box-item-contact {
+  box-shadow: var(--shadow);
+  border: 0px;
+  border-radius: 15px;
+  padding: 15px;
+  background: var(--three);
+  height: 135px;
+  width: 300px;
+}
+
+.grid-contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 10px;
+}
